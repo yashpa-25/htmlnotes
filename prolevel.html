@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    all description about lists and tables in HTML in NOTES
+    <!--lists in HTML-->
+    <!-- Unordered List in HTML -->    
+    <h2>My Favorite Fruits</h2>
+    <ul>
+        <li>Apple</li>
+            <ul>
+                <li>color : red</li>
+                <li>taste : sweet</li>
+                <li>season : winter</li>
+            </ul>
+        <li>Banana</li>
+            <ul>
+                <li>color : yellow</li>
+                <li>taste : sweet</li>
+                <li>season : all year</li>
+            </ul>
+        <li>Cherry</li>
+            <ul>
+                <li>color : red</li>
+                <li>taste : tart</li>
+                <li>season : summer</li>
+            </ul>
+       
+    </ul>
+    <hr>
+    <!-- Ordered List in HTML -->
+    <h2>My Favorite Vegetables</h2>
+    <ol>
+        <li>Carrot
+            <ul>
+                <li>color : orange</li>
+                <li>taste : sweet</li>
+                <li>season : all year</li>
+           </ul>
+        </li>
+        <li>Spinach
+           <ul>
+                <li>color : green</li>
+                <li>taste : earthy</li>
+                <li>season : all year</li>
+            </ul>
+        </li>
+        <li>Broccoli
+            <ul>
+                <li>color : green</li>
+                <li>taste : slightly bitter</li>
+                <li>season : all year</li>
+           </ul>
+        </li>
+    </ol>
+
+    <!--table in HTML-->
+    <hr>
+    <caption>Student Information</caption>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Yash</td>
+            <td>16</td>
+            <td>10th</td>
+        </tr>
+        <tr>
+            <td>Dhyey</td>
+            <td>12</td>
+            <td>7th</td>
+        </tr>
+        <tr>
+            <td>Reena</td>
+            <td>40</td>
+            <td>NA</td>
+        </tr>
+        <tr>
+            <td>Shaileshbhai</td>
+            <td>45</td>
+            <td>NA</td>
+        </tr>
+      
+       <!-- Table with merged cells in HTML -->
+       <tr>
+            <th colspan="2">Total Students</th>
+            <td>4</td>
+        </tr> 
+    </table>
+    <hr>
+
+    <!-- HTML Form -->
+    <form action="/sction.php"><!--action.php filr bot create only exp-->
+        <br>
+        <!-- Text input fields in HTML -->
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password">
+
+        <br><br>
+        <!-- radio buttons in HTML -->   
+        <input type="radio" value="class 11" name="class" id="101">class 11
+        <br><br>
+        
+        <!-- radio buttons with label in HTML -->
+        <label for="102">
+        <input type="radio" value="class 12" name="class" id="102">class 12
+        </label>
+        <br><br>
+
+        <!-- div in html -->
+        <div id="id1"class="group1">
+            <p>This is div tag </p>
+            <p>DIV એ HTML માં block-level container છે, જે webpage પર કન્ટેન્ટને જૂથબદ્ધ (group) અને ગોઠવવા માટે વપરાય છે. તે webpage માં અલગ-અલગ વિભાગો બનાવવામાં અને CSS દ્વારા style અને layout નિયંત્રિત કરવામાં મદદ કરે છે.</p>
+            <p>A div is a block-level container in HTML used to group and organize content on a webpage. It helps create sections and allows easy styling and layout control using CSS. </p>
+        </div>
+
+        <!-- checkboxes in HTML -->
+        <lable for="math">
+        <input type="checkbox" value="math" name="subject" id="101">Math
+        <input type="checkbox" value="science" name="subject" id="102">Science
+        <input type="checkbox" value="english" name="subject" id="103">English
+        <input type="checkbox" value="hindi" name="subject" id="104">Hindi
+        </lable>
+        <br><br>
+
+        <!-- dropdown menu in HTML -->
+        <label for="city">Choose your city:</label>
+        <select name="city" id="city">
+            <option value="surat">Surat</option>
+            <option value="ahmedabad">Ahmedabad</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="delhi">Delhi</option>
+        </select>
+        <br><br>
+
+        <!-- submit button in HTML -->
+        <input type="submit" value="Submit">
+        <br><br>
+            
+        <!-- text area in HTML -->
+        <textarea name="feedback" id="101" cols="30" rows="4" placeholder="Enter your message here"></textarea>
+        <br><br>
+
+      
+    </form>
+
+    <hr>
+
+    <!-- Video tag in HTML -->
+     <video width="400" height="250" controls>
+        <source src="video.mp4" type="video/mp4" loop>
+        Your browser does not support the video tag.
+        
+    </video>
+    <hr>
+
+    
+    <!-- Embedded YouTube Video in HTML -->
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=JoahSHTRgtuv0F4W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <hr>
+
+     <!-- Audio tag in HTML -->
+     <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+
+   <!-- Dark Mode always in HTML -->
+    <body style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);"></body>
+    
+    
+
+</body>
+</html>
